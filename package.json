@@ -1,6 +1,6 @@
 {
   "name": "@npm_akash/react-native-toasti",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and customizable toast library for React Native",
   "main": "src/index.js",
   "keywords": [
