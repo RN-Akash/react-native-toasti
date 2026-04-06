@@ -1,18 +1,38 @@
 {
   "name": "@npm_akash/react-native-toasti",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "private": false,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.1",
+  "description": "A lightweight and customizable toast library for React Native",
+  "main": "src/index.js",
+  "keywords": [
+    "react-native",
+    "toast",
+    "react-native-toast",
+    "toast-message",
+    "react-native-ui",
+    "notification"
+  ],
+  "author": "Akash",
+  "license": "MIT",
+  "homepage": "https://github.com/Akash-562/react-native-toasti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akash-562/react-native-toasti.git"
   },
-  "keywords": ["toast","react-native","react-native-toast","react-native-toasti","react-native-toastify","react-native-toast-message"],
-  "author": "by @npm_akash",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akash-562/react-native-toasti/issues"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
   "peerDependencies": {
-    "react": "^19.2.4",
-    "react-native": "^0.84.1",
-    "react-native-reanimated": "^4.3.0"
+    "react": ">=18",
+    "react-native": ">=0.70",
+    "react-native-reanimated": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
