@@ -34,10 +34,25 @@ Wrap your root component with `ToastProvider`:
 import React from 'react';
 import { ToastProvider } from '@npm_akash/react-native-toasti';
 import Home from './Home';
+import { MaterialDesignIcons } from '@react-native-vector-icons/material-design-icons';
 
 export default function App() {
   return (
-    <ToastProvider>
+    <ToastProvider
+      errorIcon={
+        <MaterialDesignIcons name="alert-decagram" size={26} color="red" />
+      }
+      successIcon={
+        <MaterialDesignIcons name="check-circle" size={26} color="green" />
+      }
+      infoIcon={
+        <MaterialDesignIcons
+          name="information-outline"
+          size={26}
+          color="skyblue"
+        />
+      }
+    >
       <Home />
     </ToastProvider>
   );
@@ -98,7 +113,7 @@ Contributions are welcome!
 ## 📄 License & Author
 
 MIT License.  
-Made by developer for developers 
+Made by developer for developers
 
 ---
 
