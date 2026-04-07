@@ -97,8 +97,8 @@ Contributions are welcome!
 
 ## 📄 License & Author
 
-MIT License.
-Made with ❤️ by @npm_akash
+MIT License.  
+Made by developer for developers 
 
 ---
 
